@@ -8,6 +8,8 @@ function App() {
       <form className='report-form' action="">
         <Header />
         <Checkbox />
+        <input type="text" placeholder='titulo' />
+        <textarea name="" id="" cols="30" rows="10" placeholder='Especifique o que houlve'></textarea>
 
       </form>
     </div>
