@@ -1,6 +1,27 @@
 header {
     background-color: #006557;
+    color: white;
+
+    font-size: .8rem;
 
     display: flex;
+    align-items: center;
+
+    padding: 1rem 1.4rem;
+
+    position: relative;
+
+    .arrow-icon {
+        font-size: 1.8rem;
+        font-weight: 600;
+
+        position: absolute;
+        left: 2rem;
+        z-index: 20;
+    }   
     
+    h2 {
+        text-align: center;
+        width: 100%;
+    }
 }
