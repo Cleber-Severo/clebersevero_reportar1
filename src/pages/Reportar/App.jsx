@@ -1,12 +1,13 @@
-import Checkbox from '/src/components/Header/Checkbox'
-import './App.scss'
+import Checkbox from '/src/components/Checkbox'
 import Header from '/src/components/Header'
+
+import './App.scss'
 
 function App() {
   return (
     <div className='app'>
-      <form className='report-form' action="">
         <Header />
+      <form className='report-form' action="">
         <Checkbox />
         <input type="text" placeholder='titulo' />
         <textarea name="" id="" cols="30" rows="10" placeholder='Especifique o que houlve'></textarea>
