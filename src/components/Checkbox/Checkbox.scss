@@ -1,6 +1,6 @@
 .checkbox-form {
   margin-top: 1rem;
-  padding: 1rem 1.4rem;
+  padding: 1rem 0;
 
   .checkbox-item {
     color: #575962;
@@ -66,18 +66,7 @@
       }
     }
   }
-  label {
-    margin-left: 0.6rem;
-  }
-
-  input {
-    accent-color: #51a095;
-
-    &::before {
-      border-color: red;
-    }
-  }
-}
+ }
 
 .checkbox-item > input:checked ~ span::after {
   display: block;

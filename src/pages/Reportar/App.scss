@@ -6,22 +6,34 @@
   form {
     background-color: #f8f8f8;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
     margin: 0 auto;
     box-sizing: border-box;
 
     height: 100%;
 
-    
+    padding: 0 1.8rem;
+
+    input, textarea {
+       width: 100%;
+       
+       outline: none;
+       
+       margin-bottom: 1rem;
+       padding: 1rem;
+
+       box-sizing: border-box;
+    }
+
+    textarea {
+        resize: vertical;
+    }
+
     @media screen and (min-width: 1024px) {
       border: 1px solid rgba($color: #e6e6e6, $alpha: 1.0);
       border-radius: 4px;
       
       width: 60%;
-      height: 80%;
+      height: 70%;
       
       margin-top: 3rem;
       box-sizing: border-box;
