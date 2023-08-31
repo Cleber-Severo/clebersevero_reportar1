@@ -3,58 +3,75 @@
 
   width: 100vw;
   height: 100vh;
-  overflow-y: hidden ;
+  overflow-y: hidden;
   overflow-x: hidden;
 
   display: flex;
   flex-direction: column;
-  
-  
+
   form {
     background-color: #f8f8f8;
-    
+
     height: calc(100vh - 54px);
     height: 100%;
     width: 100%;
-    
+
     margin: 0 auto;
     padding: 2rem 1.8rem 0 1.8rem;
     box-sizing: border-box;
 
-    input, textarea {
-        border: 1px solid #d9d9d9;
-        border-radius: 4px;
+    input,
+    textarea {
+      border: 1px solid #d9d9d9;
+      border-radius: 4px;
 
-       width: 100%;
-       
-       margin-bottom: 1rem;
-       padding: 1rem;
-       box-sizing: border-box;
+      width: 100%;
 
-       outline: none;
+      padding: 1rem;
+      box-sizing: border-box;
 
-       &:focus {
+      outline: none;
+
+      &:focus {
         border-color: #00816f;
-       }
+      }
+    }
+
+    input {
+      margin-bottom: 1rem;
+    }
+
+    input.error,
+    textarea.error {
+      border-color: #ff4d4d;
     }
 
     textarea {
-        resize: vertical;
+      resize: vertical;
+    }
+
+    small {
+      color: #ff4d4d;
+      opacity: 0;
+    }
+
+    .error {
+      opacity: 100;
     }
 
     @media screen and (min-width: 1024px) {
-      border: 1px solid rgba($color: #e6e6e6, $alpha: 1.0);
+      border: 1px solid rgba($color: #e6e6e6, $alpha: 1);
       border-radius: 4px;
-      
+
       width: 60%;
       height: 70%;
-      
+
       margin-top: 3rem;
       box-sizing: border-box;
     }
 
     @media screen and (min-width: 1440px) {
-        width: 40%;
+      width: 40%;
     }
   }
 }
