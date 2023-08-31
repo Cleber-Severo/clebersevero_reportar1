@@ -1,17 +1,22 @@
 .app {
   background-color: #fff;
 
-  height: calc(100vh - 54px);
-
+  width: 100vw;
+  height: 100vh;
+  overflow-y: hidden ;
+  overflow-x: hidden;
+  
   form {
     background-color: #f8f8f8;
-
-    margin: 0 auto;
-    box-sizing: border-box;
-
+    
+    
+    height: calc(100vh - 54px);
     height: 100%;
-
+    width: 100%;
+    
+    margin: 0 auto;
     padding: 2rem 1.8rem 0 1.8rem;
+    box-sizing: border-box;
 
     input, textarea {
         border: 1px solid #d9d9d9;
