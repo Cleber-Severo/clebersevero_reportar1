@@ -10,7 +10,7 @@ pt-br
 
 Desafio técnico para Upbase feito em ReactJs com a metodologia mobile first garantindo uma ótima experiencia de usuário utilizando de boas práticas do desenvolvimento web, a proposta foi fazer uma tela mobile seguindo um layout disponibilizado no figma e pode ser acessado pelo [link](https://clebersevero-reportar1.vercel.app/)
 
-O projeto foi feito com React, Sass, contando com as melhores práticas buscando performace, bons visuais e layout totalmente responsivo. As principais ferramentas utilizadas são: React Js, Sass, useState, Componentes do Material UI(Tooltip) e Figma.
+O projeto foi feito com React, Sass, contando com as melhores práticas buscando performace, bons visuais e layout totalmente responsivo. As principais ferramentas utilizadas são: React Js, Sass, react-icons , useState, Componentes do Material UI(Tooltip) e Figma.
 
 ### Principais funcionalidades:
 
@@ -31,7 +31,7 @@ en
 
 Technical challenge done for UpBase built with ReactJs with mobile first method garanting a great user experience conting on web development good practices. The proposed challenge was to build a mobile screen following as close as possible a Fima layout and it can be accessed on the [link](https://clebersevero-reportar1.vercel.app/).
 
-The project has been made with React, Sass, having the best practices looking for perfomrmace, good styling and responsive design. The main tools used are: React Js, Sass, useState, Material UI components(Tooltip) and Figma.
+The project has been made with React, Sass, having the best practices looking for perfomrmace, good styling and responsive design. The main tools used are: React Js, Sass, react-icons , useState, Material UI components(Tooltip) and Figma.
 
 ### Main features:
 
@@ -56,21 +56,22 @@ The project has been made with React, Sass, having the best practices looking fo
     Follow the instructions bellow to run de dependences:
 
     - set jsxconfig.json "baseUrl": "src"
-    - npm install
-    - npm install react-router-dom
-    - npm install react-icons --save
-    - npm install @mui/material @emotion/react @emotion/styled
-    - npm install swiper
-    - npm run dev
+
+    Terminal comands: 
+        - npm install
+        - npm install sass
+        - npm install react-icons --save
+        - npm install @mui/material @emotion/react @emotion/styled
+        - npm run dev
 
 ## Techs:
 
  <div style="display: inline_block">
   <img align="center" alt="React" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img align="center" alt="React" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg">
   <img align="center" alt="JavaScript" height="50" width="60" src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg">
    <img align="center" alt="Mui" height="50" width="60" src="https://github.com/devicons/devicon/blob/master/icons/materialui/materialui-original.svg">
-   <img align="center" alt="Css" height="50" width="60" src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg">
- <img align="center" backGround="white" alt="CSS Modules" height="50" width="60" src="https://github.com/css-modules/logos/blob/master/css-modules-logo.inkscape.svg">
+
 </div>
 <br>
 
