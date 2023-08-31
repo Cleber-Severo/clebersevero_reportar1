@@ -1,9 +1,9 @@
 import React from 'react'
 import './Checkbox.scss'
 
-const Checkbox = () => {
+const Checkbox = ({ error }) => {
     return (
-        <div className='checkbox-form'>
+        <div className={`checkbox-form ${error}`}>
             <label className='checkbox-item'>
                 <input type="checkbox"  />
                 O profissional não compareceu

@@ -68,6 +68,15 @@
   }
  }
 
+ .checkbox-form.error {
+    .checkbox-item {
+      color: #ff4d4d;
+      span {
+        border-color: #ff4d4d;
+      }  
+    }
+ }
+
 .checkbox-item > input:checked ~ span::after {
   display: block;
 }

@@ -24,7 +24,7 @@ function App() {
     <div className='app'>
         <Header />
       <form className='report-form' action="" onSubmit={validateForm} >
-        <Checkbox />
+        <Checkbox error={error} />
         <input type="text" placeholder='Título' className={error} onChange={e => setValidation(e.target.value) } />
         <textarea 
           cols="10" 
