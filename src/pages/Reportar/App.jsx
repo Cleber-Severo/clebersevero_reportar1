@@ -5,13 +5,18 @@ import './App.scss'
 import Button from '../../components/Button'
 
 function App() {
+
+  function validateForm(e) {
+    e.preventDefault();
+  }
+
   return (
     <div className='app'>
         <Header />
-      <form className='report-form' action="">
+      <form className='report-form' action="" onSubmit={validateForm} >
         <Checkbox />
         <input type="text" placeholder='Título' />
-        <textarea name="" id="" cols="10" rows="10" placeholder='Especifique o que houve'></textarea>
+        <textarea name="" id="" cols="10" rows="10" placeholder='Especifique aqui o que houve'></textarea>
         <Button>
           Reportar
         </Button>

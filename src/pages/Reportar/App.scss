@@ -5,10 +5,13 @@
   height: 100vh;
   overflow-y: hidden ;
   overflow-x: hidden;
+
+  display: flex;
+  flex-direction: column;
+  
   
   form {
     background-color: #f8f8f8;
-    
     
     height: calc(100vh - 54px);
     height: 100%;

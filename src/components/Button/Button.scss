@@ -1,0 +1,27 @@
+.button-component {
+  background-color: #07689f;
+  color: white;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  border-radius: 4px;
+
+  user-select: none;
+  width: 100%;
+
+  margin-top: 2rem;
+  padding: 1rem;
+  box-sizing: border-box;
+
+  outline: none;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #065f93;
+  }
+
+  &:active {
+    background-color: #054f7a;
+  }
+}
