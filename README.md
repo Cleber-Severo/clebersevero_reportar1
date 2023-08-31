@@ -4,7 +4,7 @@ pt-br
 
 ### Tela de reportar do Aplicativo Esther Home Care para o desafio técnico da UpBase
 
-[<img width=80% textAlign="center" src="./public/Images/screenshots/mobile-report.png" alt="desktop">](https://clebersevero-reportar1.vercel.app/)
+[<img height=500 width=30% textAlign="center" src="./public/Images/screenshots/mobile-report.png" alt="mobile">](https://clebersevero-reportar1.vercel.app/)
 
 ## Introdução
 
@@ -43,12 +43,11 @@ The project has been made with React, Sass, having the best practices looking fo
 
 ### Thank you for having a look on this project!
 
-[<img width=80% textAlign="center" src="./public/Images/screenshots/mobile-report.png" alt="desktop">](https://meteora-9lmj.vercel.app)
+[<img height=500 width=30% textAlign="center" src="./public/Images/screenshots/mobile-report.png" alt="desktop">](https://meteora-9lmj.vercel.app)
 
 ### Desktop version
 
-<img  height=500 width=80% textAlign="center" src="./public/Images/screenshots/mobile-report.png" alt="mobile">
-
+<img width=80% textAlign="center" src="./public/Images/screenshots/desktop-report.png" alt="desktop">
 
 
 ## Installation:
